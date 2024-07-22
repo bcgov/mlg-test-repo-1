@@ -1,0 +1,10 @@
+version: 1
+data_management_roles:
+  product_owner: Monica
+product_information:
+  ministry: CITZ
+  product_acronym: MLG
+  product_description: some description
+  product_name: 
+product_technology_information:
+  hosting_platforms: Unknown
