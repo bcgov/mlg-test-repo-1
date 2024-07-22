@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-title-1
+  title: test title 1
+  description: test description 1
+  annotations:
+    github.com/project-slug: /mlg-test-repo-1
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    backstage.io/source-template: template:default/add-metadata-to-repo
+spec:
+  type: other
+  lifecycle: deprecated
+  owner: group:bcgov/developer-experience
