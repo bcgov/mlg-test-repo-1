@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-title
+  title: test title
+  description: test description
+  annotations:
+    github.com/project-slug: ${{ parameters.repoUrl | projectSlug }}
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    developer.gov.bc.ca/source_template: default/docs-template
+    backstage.io/source-template: template:default/add-metadata-to-repo
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:${{ (parameters.repo | parseRepoUrl).organization
+    }}/devhub-wizards-default-team
