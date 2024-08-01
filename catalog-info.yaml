@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tet-titile
+  title: tet titile
+  description: test description
+  annotations:
+    github.com/project-slug: /mlg-test-repo-1
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/product_description: test description
+    bcgovpubcode.gov.bc.ca/hosting_platform: Unknown
+    backstage.io/source-template: template:default/add-metadata-to-repo
+spec:
+  type: library
+  lifecycle: production
+  owner: group:bcgov/devhub-wizards-default-team
